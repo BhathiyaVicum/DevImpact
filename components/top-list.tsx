@@ -70,7 +70,7 @@ export function TopList({ userResults }: Props) {
       </div>
       <div className="text-right">
         <p className="text-sm font-semibold text-foreground">
-          {(data.score ?? 0).toFixed(2)}
+          {data.score ?? 0}
         </p>
         <p className="text-[11px] text-muted-foreground">
           {t("comparsion.score")}

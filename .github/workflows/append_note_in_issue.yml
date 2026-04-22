@@ -6,7 +6,7 @@ on:
 
 jobs:
   add-note:
-    if: github.event.issue.user.login == 'O2sa'
+    if: github.event.issue.user.login == 'o2sa'
     runs-on: ubuntu-latest
     permissions:
       issues: write
